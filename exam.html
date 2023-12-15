@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Examination</title>
+<style>
+   #home{
+      background-color:pink;
+   }
+  #register{
+     background-color:bisque;
+  }
+  section{
+     height:500px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+}
+</style>
+</head>
+
+<body>
+
+ <li><a href="#home">Home</a></li>
+ <li><a href="#register">Register</a></li>
+
+<section id="home">
+<div class="container">
+<h2>Exam</h2>
+</section>
+
+
+<section id="register">
+<div class="container">
+<form action="exam.php" method="POST">
+Name:<input type="text" name="firstname" id="firstname"><br><br>
+Regno:<input type="number" name="regno" id="regno"><br><br>
+<input type="submit" id="submit">
+</form>
+</section>
+
+
+</body>
+</html>
